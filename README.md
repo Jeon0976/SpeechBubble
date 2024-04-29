@@ -9,6 +9,8 @@
 
 SpeechBubble is an iOS View class that includes both an arrow view and a label view.
 
+<img src="/Images/demo.gif" width = "250" height = "450"/>
+
 ## Requirements
 
 SpeechBubble requires iOS 13.0 or later, and depends on the following Apple frameworks:
