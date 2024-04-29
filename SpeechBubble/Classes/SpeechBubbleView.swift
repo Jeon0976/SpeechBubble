@@ -158,10 +158,27 @@ public class SpeechBubbleView: UIView {
     private var arrowTrailingConstraint: NSLayoutConstraint?
     
     private var afterInitSetConstraint: Bool = false
-
+    
     private var textLabelView: TextLabelView!
     private var arrowView: ArrowView!
     
+    /// Creates a `SpeechBubbleView` with various customization options
+    /// - Parameters:
+    ///   - text: The text to display inside the speech bubble.
+    ///   - font: The font of the text. Default is system font of size 16, medium weight.
+    ///   - numberOfLines: The maximum number of lines for the text. Default is 0 (no limit).
+    ///   - textAlignment: The alignment of the text within the speech bubble. Default is centered.
+    ///   - textColor: The color of the text. Default is the label color.
+    ///   - textInset: The padding inside the speech bubble around the text. Default is 16 points.
+    ///   - filledColor: The background color of the speech bubble. Default is system grouped background.
+    ///   - borderColor: The color of the speech bubble's border. Default is the separator color.
+    ///   - borderWidth: The width of the border of the speech bubble. Default is 2 points.
+    ///   - style: The styling options for the speech bubble, e.g., filled, lined, dotted.
+    ///   - clipsToBounds: A Boolean value that determines whether subviews are confined to the bounds of the view. Default is true.
+    ///   - cornerRadious: The radius of the corners of the speech bubble. Default is 15 points.
+    ///   - arrowSize: The size of the arrow pointing from the speech bubble. Default is 10 points.
+    ///   - arrowPosition: The position of the arrow (top, bottom, left, right).
+    ///   - arrowPositionRatio: The position of the arrow along the specified edge as a ratio of the view's dimension. Default is 0.5.
     public init(
         text: String,
         font: UIFont = .systemFont(ofSize: 16, weight: .medium),
