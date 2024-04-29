@@ -56,15 +56,14 @@ class ViewController: UIViewController {
         return stackView
     }()
     
-    private lazy var speechBubbleView5 = SpeechBubbleView(
-        text: "Text",
-        textColor: .black,
-        filledColor: .systemYellow,
-        borderColor: .darkGray,
-        borderWidth: 2,
-        style: [.fill],
-        arrowPosition: .top
-    )
+    private lazy var speechBubbleView5: SpeechBubbleView = {
+        let view = SpeechBubbleView(text: "test", style: [.fill], arrowPosition: .top)
+       
+        view.textColor = .black
+        view.filledColor = .systemYellow
+        
+        return view
+    }()
     
     private lazy var button1: UIButton = {
         let btn = UIButton()
