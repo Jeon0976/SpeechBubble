@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpeechBubble'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary       = "An iOS View class for displaying speech bubbles with customizable arrows and text labels."
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description  = <<-DESC
+  s.description  = <<-DESC
                      SpeechBubble is an iOS View class that enables the easy creation of customizable speech bubbles with arrows and labels. It supports extensive customization options including colors, fonts, and arrow positioning.
                     DESC
 
