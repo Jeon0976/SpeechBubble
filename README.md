@@ -5,11 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/SpeechBubble.svg?style=flat)](https://cocoapods.org/pods/SpeechBubble)
 [![Platform](https://img.shields.io/cocoapods/p/SpeechBubble.svg?style=flat)](https://cocoapods.org/pods/SpeechBubble)
 
-## Example
+## SpeechBubble
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+SpeechBubble is an iOS View class that includes both an arrow view and a label view.
 
 ## Requirements
+
+SpeechBubble requires iOS 13.0 or later, and depends on the following Apple frameworks:
+
+- Foundaiton
+- UIKit
+
+Swift Versions:
+
+- Swift 5
 
 ## Installation
 

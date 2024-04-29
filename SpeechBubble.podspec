@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  SpeechBubble is a versatile iOS View class that efficiently integrates both an arrow view and a label view. It allows for customizable speech bubble components in your iOS applications, enhancing user interface and experience by providing visually appealing, context-specific user interaction elements.
+
+DESC
 
   s.homepage         = 'https://github.com/Jeon0976/SpeechBubble'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,15 +29,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Jeon0976/SpeechBubble.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'SpeechBubble/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'SpeechBubble' => ['SpeechBubble/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

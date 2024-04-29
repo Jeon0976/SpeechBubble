@@ -1,0 +1,16 @@
+PODS:
+  - SpeechBubble (0.1.0)
+
+DEPENDENCIES:
+  - SpeechBubble (from `../`)
+
+EXTERNAL SOURCES:
+  SpeechBubble:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpeechBubble: 670c54a3775130cd90452f0e4b8d1565cfb03c64
+
+PODFILE CHECKSUM: 47cbb987c87d32a998ba351bbc14518e3fe0a206
+
+COCOAPODS: 1.15.2
