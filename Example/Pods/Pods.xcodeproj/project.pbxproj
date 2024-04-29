@@ -76,7 +76,7 @@
 		C5EFD23E2BDFBBC300EC7E54 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C5EFD2402BDFBBC300EC7E54 /* SpeechBubbleArrowPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechBubbleArrowPosition.swift; sourceTree = "<group>"; };
 		C5EFD2412BDFBBC300EC7E54 /* SpeechBubbleStyleOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechBubbleStyleOptions.swift; sourceTree = "<group>"; };
-		C5EFD2432BDFBBC300EC7E54 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechBubbleView.swift; path = SpeechBubble/Classes/SpeechBubbleView.swift; sourceTree = "<group>"; };
+		C5EFD2432BDFBBC300EC7E54 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechBubbleView.swift; path = Classes/SpeechBubbleView.swift; sourceTree = "<group>"; };
 		E42ACF9D077C53D02902E6881C994DE8 /* SpeechBubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeechBubble.release.xcconfig; sourceTree = "<group>"; };
 		F2612795E027A8A42C07AC80672E0F1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9DF2447AB0A064E43603F4E568825FC /* Pods-SpeechBubble_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeechBubble_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				E42ACF9D077C53D02902E6881C994DE8 /* SpeechBubble.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SpeechBubble";
+			path = "../../Example/Pods/Target Support Files/SpeechBubble";
 			sourceTree = "<group>";
 		};
 		1E5DB162A70F99FA138203AAA04D59CB /* Products */ = {
@@ -143,6 +143,7 @@
 				462643B3B4D2C95FE1A1621BA0077EC5 /* SpeechBubble.podspec */,
 			);
 			name = Pod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2E36A1FF559448262477E551A03959FA /* Pods-SpeechBubble_Example */ = {
@@ -181,7 +182,7 @@
 				03FB7A6D6100D7EBAFC4C98C0ACBFDDA /* Support Files */,
 			);
 			name = SpeechBubble;
-			path = ../..;
+			path = ../../Sources/SpeechBubble;
 			sourceTree = "<group>";
 		};
 		C5EFD23C2BDFBBC300EC7E54 /* Subviews */ = {
@@ -191,7 +192,7 @@
 				C5EFD23B2BDFBBC300EC7E54 /* TextLabelView.swift */,
 			);
 			name = Subviews;
-			path = SpeechBubble/Classes/Subviews;
+			path = Classes/Subviews;
 			sourceTree = "<group>";
 		};
 		C5EFD23F2BDFBBC300EC7E54 /* Extension */ = {
@@ -200,7 +201,7 @@
 				C5EFD23E2BDFBBC300EC7E54 /* UIView+Extension.swift */,
 			);
 			name = Extension;
-			path = SpeechBubble/Classes/Extension;
+			path = Classes/Extension;
 			sourceTree = "<group>";
 		};
 		C5EFD2422BDFBBC300EC7E54 /* Component */ = {
@@ -210,7 +211,7 @@
 				C5EFD2412BDFBBC300EC7E54 /* SpeechBubbleStyleOptions.swift */,
 			);
 			name = Component;
-			path = SpeechBubble/Classes/Component;
+			path = Classes/Component;
 			sourceTree = "<group>";
 		};
 		C74DE2FC97D2E8DB196B6E9D80E4F310 /* Pods-SpeechBubble_Tests */ = {
