@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SpeechBubble'
   s.version          = '0.1.0'
-  spec.summary       = "An iOS View class for displaying speech bubbles with customizable arrows and text labels."
+  s.summary       = "An iOS View class for displaying speech bubbles with customizable arrows and text labels."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
