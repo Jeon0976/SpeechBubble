@@ -40,6 +40,10 @@ import UIKit
 import SpeechBubble
 ```
 
+Swift Package Manager
+
+SpeechBubble is available through Swift Package Manager.
+
 ## Example 
 ``` swift 
 private let speechBubbleView1 = SpeechBubbleView(text: "test", style: .fill, arrowPosition: .top)
